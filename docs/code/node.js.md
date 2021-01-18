@@ -2,11 +2,14 @@
 [TOC]
 ### Node.js 是什么？
 - 因为 javaScript 只能在浏览器中执行，而 Node.js 提供了 js 在后端运行的环境。将 js 模块化，函数式编程。
+
 ### Node.js 的特性
 - 单线程，process 进程。只能等待下一次事件响应中执行代码。所以可以使用异步编程。
 - Node.js 开发的目的就是为了用 JavaScript 编写 Web 服务器程序。
+
 ### npm 有什么关系
 - node 提供了很多模块包，使用 npm 包管理器进行管理。
+
 ### Node.js 模块
 - 一个.js文件就称之为一个模块（module）。
 - fs 文件系统模块
@@ -16,8 +19,10 @@
 - http 模块
     - 应用程序并不直接和HTTP协议打交道，而是操作http模块提供的request和response对象。
     - https 安全问题，建议用反向代理服务器如Nginx等Web服务器去处理证书。
+
 ### Node.js 工程目录
 - 执行文件：执行 node xx.js。工程文件：package.json <-- 项目描述文件，node_modules/ <-- npm安装的所有依赖包
+
 ### Node.js 的 web 框架
 - koa 框架
     - 引入了新的关键字async和await，可以轻松地把一个function变为异步模式。

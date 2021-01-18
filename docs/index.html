@@ -12,6 +12,11 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
+      search: {
+      paths: 'auto',
+      placeholder: 'Search',
+      noData: 'No Results!',
+  },
       name: '',
       repo: '',
       loadSidebar: true,
@@ -22,5 +27,8 @@
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
+  <script src="//unpkg.com/docsify-copy-code"></script>
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
 </body>
 </html>
