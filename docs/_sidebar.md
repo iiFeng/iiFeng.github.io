@@ -3,5 +3,6 @@
   * [飞书应用的测试](test/test_feishu.md)
 * 技术
   * [初步了解 Node.js](code/node.js.md)
+  * [Redis 知识点](code/redis.md)
 * 工作效率
     * [高效的工作方式](work/working.md)
