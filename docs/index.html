@@ -7,7 +7,7 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
 
 </head>
 <body>
@@ -31,15 +31,14 @@
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
-<script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 <script>
   const gitalk = new Gitalk({
     clientID: '4d02938d6bf05a8bc28f',
     clientSecret: '1e506e25f772233709ce26081f12d2cfde7f2269',
-    repo: 'https://github.com/iiFeng/oauth-comments.git',
+    repo: 'https://github.com/iiFeng/oauth-comments',
     owner: 'iamifenghuang@gmail',
-    admin: 'iamifenghuang@gmail',
+    admin: ['iamifenghuang@gmail'],
     // facebook-like distraction free mode
     distractionFreeMode: false,
     id: location.pathname // 用于标记评论是哪个页面的
