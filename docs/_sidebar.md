@@ -1,4 +1,3 @@
-* [首页](index.md)
 * 测试
   * [关于缓存的测试](test/cache.md)
   * [飞书应用的测试](test/test_feishu.md)
