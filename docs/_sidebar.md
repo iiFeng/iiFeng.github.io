@@ -4,6 +4,7 @@
 * 技术
   * [HTTP](code/http.md)
   * [Redis 知识点](code/redis.md)
+  * [RPC 和 gRPC 使用介绍](code/rpc&grpc.md)
   * [初步了解 Node.js](code/node.js.md)
 * 工作效率
     * [高效的工作方式](work/working.md)
