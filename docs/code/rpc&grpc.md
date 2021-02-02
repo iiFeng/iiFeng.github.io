@@ -109,7 +109,6 @@ demo https://github.com/iiFeng/grpc-demo
 - Channel的初始化过程：调用forTarget方法创建`io.grpc.ManagedChannelBuilder`;配置各种选项，不论如何配置，返回的总是`io.grpc.ManagedChannelBuilder`对象;调用build方法创建`io.grpc.ManagedChannel`。       
 
 
-
 ### gRPC 如何进行测试（todo:完善）
 - 服务端        
     步骤：
