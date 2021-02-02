@@ -8,3 +8,4 @@
   * [初步了解 Node.js](code/node.js.md)
 * 工作效率
     * [高效的工作方式](work/working.md)
+    * [如何快速学习新知识](work/learning.md)
