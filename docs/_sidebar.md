@@ -3,6 +3,7 @@
   * [飞书应用的测试](test/test_feishu.md)
 * 技术
   * [HTTP](code/http.md)
+  * [Linux 归纳](code/linux.md)
   * [Redis 知识点](code/redis.md)
   * [RPC 和 gRPC 使用介绍](code/rpc&grpc.md)
   * [初步了解 Node.js](code/node.js.md)
