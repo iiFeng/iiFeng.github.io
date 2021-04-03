@@ -33,6 +33,21 @@ Controller 专注于业务处理，它的处理结果就是 Model。Model 可以
 ## 拦截器：Interceptor
 拦截 Controller，基于 AOP 的方法拦截。通常在认证或者安全检查失败时直接返回错误响应，处理异常。
 
+## 跨域
+浏览器同源：domain 域名、协议、端口相同。指定 Cookie 的所属域名为一级域名       
+- 什么是跨域：允许其他域名的网站可以访问获取某个网站的 cookie。    
+
+解决跨源问题的方法：JSONP、WebSocket、CORS    
+
+- CORS：跨源资源分享（Cross-Origin Resource Sharing）的缩写。它是 W3C 标准，是跨源 AJAX 请求的根本解决方法。相比 JSONP 只能发 GET 请求，CORS 允许任何类型的请求。   
+
+字段 Origin，表示该请求的请求源（origin），即发自哪个域名。                
+
+CORS 它允许浏览器向跨源服务器，发出 XMLHttpRequest 请求，从而克服了 AJAX 只能同源使用的限制。实现 CORS 通信的关键是服务器。只要服务器实现了 CORS 接口，就可以跨源通信。     
+
+web 开发中允许指定的网站通过页面 JavaScript 访问这些 REST API，就必须正确地设置 CORS。使用 @CrossOrigin，CorsRegistry（在WebMvcConfigurer 中定义一个全局 CORS 配置）注解。
+
+
 ## 异步处理
 回调的方式处理线程，或者增加线程：在方法内部又 new 了一个线程或者扔到线程池里，由这个新的线程去处理耗时的部分，方法本身不去等待线程执行完毕。
 
